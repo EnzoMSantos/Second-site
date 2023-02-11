@@ -87,17 +87,35 @@ body {
 }
 
 .secundario {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
 }
 
 .secundario-titulo {
-
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    color: #FFF2EF;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
 }
 
 .secundario-paragrafo {
-
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
 }
 
 .rodape {
+    padding: 32px;
     
+}
+
+.imagem-rodape {
+
 }
