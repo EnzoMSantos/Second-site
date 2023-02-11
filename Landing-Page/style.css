@@ -82,6 +82,10 @@ body {
     font-size: 24px;
 }
 
+.principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
 .principal-imagem {
     height: 430px;
 }
@@ -112,10 +116,13 @@ body {
 }
 
 .rodape {
+    border-top: 0.4px solid #FFF2E7;
     padding: 32px;
-    
+
 }
 
 .imagem-rodape {
-
+    height: 48px;
+    display: block;
+    margin:  0 auto;
 }
